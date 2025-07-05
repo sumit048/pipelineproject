@@ -16,9 +16,9 @@ def get_requirements(file_path:str)-> List[str]:
 setup(
     name = "PipelineProject", 
     version = "0.0.1", 
-    author = "Sagnik Sarkar", 
+    author = "Sumit Maradi", 
     description= "A trial End to End ML project created for First batch of LP students",
-    author_email= "sagnik.sarkar22-24@bibs.co.in", 
+    author_email= "sumitmaradi85@gmail.com", 
     install_requires = get_requirements("requirements.txt"),
     packages= find_packages()
     )

@@ -12,7 +12,7 @@ from src.logger import logging
 class ConnectDBConfig():
     host = 'localhost'
     user = 'root'
-    password = 'Sagnik123#'
+    password = 'Sumit123#'
     database = 'diamondproject'
     table_name = 'diamondprojectdata'
     dataset_path:str = os.path.join('dataset', 'gemstone.csv')

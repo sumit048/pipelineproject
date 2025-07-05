@@ -1,0 +1,31 @@
+[2025-07-05 14:16:12,862] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-07-05 14:16:12,865] 97 werkzeug - INFO -  * Debugger PIN: 138-403-789
+[2025-07-05 14:20:52,918] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:20:52] "GET / HTTP/1.1" 200 -
+[2025-07-05 14:20:53,207] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:20:53] "GET /templates/diamond.jpg HTTP/1.1" 200 -
+[2025-07-05 14:20:53,267] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:20:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-05 14:21:29,047] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:21:29] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[2025-07-05 14:21:29,222] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:21:29] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-07-05 14:21:29,260] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:21:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-07-05 14:21:29,357] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:21:29] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=nEtT7xzafz87ClJuOJ18 HTTP/1.1" 200 -
+[2025-07-05 14:21:29,368] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:21:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-07-05 14:21:42,297] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:21:42] "GET / HTTP/1.1" 200 -
+[2025-07-05 14:21:42,381] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:21:42] "[36mGET /templates/diamond.jpg HTTP/1.1[0m" 304 -
+[2025-07-05 14:23:05,287] 65 root - INFO - Dataframe created
+[2025-07-05 14:23:06,317] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:23:06] "POST / HTTP/1.1" 200 -
+[2025-07-05 14:23:06,368] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:23:06] "[36mGET /templates/diamond.jpg HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:07,133] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:07] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[2025-07-05 14:24:07,210] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:07,211] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:07,274] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=nEtT7xzafz87ClJuOJ18 HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:07,300] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:17,771] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:17] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[2025-07-05 14:24:17,877] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:17,882] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:17,905] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=nEtT7xzafz87ClJuOJ18 HTTP/1.1[0m" 304 -
+[2025-07-05 14:24:17,942] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:24:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-07-05 14:26:49,127] 65 root - INFO - Dataframe created
+[2025-07-05 14:26:49,160] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:26:49] "POST / HTTP/1.1" 200 -
+[2025-07-05 14:26:49,207] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:26:49] "[36mGET /templates/diamond.jpg HTTP/1.1[0m" 304 -
+[2025-07-05 14:27:07,826] 65 root - INFO - Dataframe created
+[2025-07-05 14:27:07,836] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:27:07] "POST / HTTP/1.1" 200 -
+[2025-07-05 14:27:07,891] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 14:27:07] "[36mGET /templates/diamond.jpg HTTP/1.1[0m" 304 -
