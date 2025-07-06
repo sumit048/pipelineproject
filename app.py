@@ -1,17 +1,17 @@
 import streamlit as st
 from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
 
+st.set_page_config(page_title="Diamond Price Predictor 💎")
+
 st.title("Diamond Price Predictor 💎")
+st.write("Enter diamond specifications to predict its price.")
 
-st.write("Please enter the diamond features below:")
-
-# Input fields
-carat = st.number_input("Carat", min_value=0.0, format="%.2f")
-depth = st.number_input("Depth", min_value=0.0, format="%.2f")
-table = st.number_input("Table", min_value=0.0, format="%.2f")
-x = st.number_input("X (Length in mm)", min_value=0.0, format="%.2f")
-y = st.number_input("Y (Width in mm)", min_value=0.0, format="%.2f")
-z = st.number_input("Z (Depth in mm)", min_value=0.0, format="%.2f")
+carat = st.number_input("Carat", min_value=0.0, step=0.01)
+depth = st.number_input("Depth", min_value=0.0, step=0.1)
+table = st.number_input("Table", min_value=0.0, step=0.1)
+x = st.number_input("X (mm)", min_value=0.0, step=0.1)
+y = st.number_input("Y (mm)", min_value=0.0, step=0.1)
+z = st.number_input("Z (mm)", min_value=0.0, step=0.1)
 
 cut = st.selectbox("Cut", ["Fair", "Good", "Very Good", "Premium", "Ideal"])
 color = st.selectbox("Color", ["J", "I", "H", "G", "F", "E", "D"])
@@ -32,7 +32,7 @@ if st.button("Predict"):
         )
         new_data = data.get_data_as_dataframe()
         predict_pipeline = PredictPipeline()
-        pred = predict_pipeline.predict(new_data)
-        st.success(f"💰 Predicted Diamond Price: ${round(pred[0], 2)}")
+        result = predict_pipeline.predict(new_data)
+        st.success(f"💰 Predicted Diamond Price: ${round(result[0], 2)}")
     except Exception as e:
-        st.error(f"Prediction failed: {e}")
+        st.error(f"Error: {e}")
