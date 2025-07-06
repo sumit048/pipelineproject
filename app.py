@@ -1,10 +1,36 @@
 import streamlit as st
 from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
 
-st.set_page_config(page_title="Diamond Price Predictor 💎")
+# Page config
+st.set_page_config(page_title="Diamond Price Predictor 💎", layout="centered")
 
-st.title("Diamond Price Predictor 💎")
-st.write("Enter diamond specifications to predict its price.")
+# Background image from your URL
+def set_background():
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("https://png.pngtree.com/background/20230618/original/pngtree-abstract-red-crystal-formation-in-3d-rendering-picture-image_3710248.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }}
+        .block-container {{
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 2rem;
+            border-radius: 1rem;
+            max-width: 600px;
+            margin: auto;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+set_background()
+
+st.markdown("<h1 style='text-align: center;'>Diamond Price Predictor 💎</h1>", unsafe_allow_html=True)
+st.write("### Enter diamond specifications to predict its price.")
 
 carat = st.number_input("Carat", min_value=0.0, step=0.01)
 depth = st.number_input("Depth", min_value=0.0, step=0.1)
