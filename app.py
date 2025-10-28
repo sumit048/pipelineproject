@@ -1,3 +1,4 @@
+import streamlit as st
 from flask import Flask, request, render_template, jsonify
 # Alternatively can use Django, FastAPI, or anything similar
 from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
