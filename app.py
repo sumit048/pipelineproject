@@ -108,4 +108,4 @@ if __name__ == "__main__":
     app.run(host = "0.0.0.0", debug= True)
  
 #http://127.0.0.1:5000/ in browser
-  03e8454 (Styled Streamlit app with red crystal background)
+    03e8454 (Styled Streamlit app with red crystal background)
