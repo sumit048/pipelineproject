@@ -75,7 +75,6 @@ with st.container():
             st.error(f"Error: {e}")
 
     st.markdown('</div>', unsafe_allow_html=True)
-=======
  
 application = Flask(__name__, static_folder='templates')
 app = application
@@ -109,5 +108,4 @@ if __name__ == "__main__":
     app.run(host = "0.0.0.0", debug= True)
  
 #http://127.0.0.1:5000/ in browser
- 
->>>>>>> 03e8454 (Styled Streamlit app with red crystal background)
+  03e8454 (Styled Streamlit app with red crystal background)
