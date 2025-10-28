@@ -1,11 +1,10 @@
 from flask import Flask, request, render_template, jsonify
 # Alternatively can use Django, FastAPI, or anything similar
 from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
-<<<<<<< HEAD
 
 # Page config
 st.set_page_config(page_title="💎 Diamond Price Predictor", layout="centered")
->>>>>>> main
+
 # Custom CSS for background, form box, and fonts
 def set_premium_style():
     st.markdown("""
